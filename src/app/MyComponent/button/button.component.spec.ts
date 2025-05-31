@@ -1,7 +1,6 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-import { IonicModule } from '@ionic/angular';
-
 import { ButtonComponent } from './button.component';
+import { IonButton } from '@ionic/angular/standalone';
 
 describe('ButtonComponent', () => {
   let component: ButtonComponent;
@@ -10,7 +9,7 @@ describe('ButtonComponent', () => {
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ ButtonComponent ],
-      imports: [IonicModule.forRoot()]
+      imports: [ IonButton ]
     }).compileComponents();
 
     fixture = TestBed.createComponent(ButtonComponent);

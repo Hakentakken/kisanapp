@@ -1,14 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { IonButton } from '@ionic/angular/standalone';
 
 @Component({
   selector: 'app-button',
-  templateUrl: './button.component.html',
-  styleUrls: ['./button.component.scss'],
+  templateUrl: 'button.component.html',
+  styleUrls: ['button.component.scss'],
+  imports: [IonButton],
 })
-export class ButtonComponent  implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {}
-
-}
+export class ButtonComponent {}
