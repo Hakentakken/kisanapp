@@ -1,15 +1,27 @@
 ion-card {
-  width: 90%;         // or a fixed width like 400px
-  max-width: 400px;   // limits the card width
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;       // or set a fixed height if you want
+  width: 1000%;         // or a fixed width like 400px
+  max-width: 1400px;   // limits the card width
+  position: absolute;
+  top: 100px;  
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 5px;
+
+  background-image: url('src/assets/icon/Farm.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
+
 ion-card-title {
   text-align: center;
   width: 100%;
-  height: 60px; // Adjust as needed
+  height: 200px; // Adjust as needed
   display: flex;
   align-items: center;
   justify-content: center;
+
+  font-size: 5rem; 
+  font-weight: bold;
+  color: rgb(7, 6, 2);
 }
