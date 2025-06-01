@@ -1,0 +1,15 @@
+ion-card {
+  width: 90%;         // or a fixed width like 400px
+  max-width: 400px;   // limits the card width
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;       // or set a fixed height if you want
+}
+ion-card-title {
+  text-align: center;
+  width: 100%;
+  height: 60px; // Adjust as needed
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
